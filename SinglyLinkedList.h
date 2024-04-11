@@ -1,0 +1,14 @@
+//
+// Created by danyl on 11.04.2024.
+//
+
+#ifndef DATA_STRUCTURES_SINGLYLINKEDLIST_H
+#define DATA_STRUCTURES_SINGLYLINKEDLIST_H
+
+
+class SinglyLinkedList {
+
+};
+
+
+#endif //DATA_STRUCTURES_SINGLYLINKEDLIST_H
