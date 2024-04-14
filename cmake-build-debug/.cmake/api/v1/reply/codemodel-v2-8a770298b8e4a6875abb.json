@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_structures::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_structures-Debug-b60a96e1f3fd1462d3ab.json",
+					"jsonFile" : "target-Data_structures-Debug-4003b491c14012b03add.json",
 					"name" : "Data_structures",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/clion/Data_structures/cmake-build-debug",
-		"source" : "C:/clion/Data_structures"
+		"build" : "C:/clion/Library/cmake-build-debug",
+		"source" : "C:/clion/Library"
 	},
 	"version" : 
 	{

@@ -154,8 +154,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/clion/Data_structures/cmake-build-debug",
-		"source" : "C:/clion/Data_structures"
+		"build" : "C:/clion/Library/cmake-build-debug",
+		"source" : "C:/clion/Library"
 	},
 	"version" : 
 	{

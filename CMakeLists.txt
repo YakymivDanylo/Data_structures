@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(Data_structures main.cpp
         SinglyLinkedList.cpp
         SinglyLinkedList.h
-        SingleNode.h)
+        SingleNode.h
+        DoubleNode.h
+        DoubleLinkedList.h)

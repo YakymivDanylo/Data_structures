@@ -1,17 +1,24 @@
 #include <iostream>
 #include "SingleNode.h"
 #include "SinglyLinkedList.h"
+#include "DoubleNode.h"
+#include "DoubleLinkedList.h"
 
 using namespace std;
 
 void singlylist(){
 
     SinglyLinkedList<int> list;
+    if(list.isEmpty())
+        cout<<"List is empty"<<endl;
     cout<<"Inserting 3 items at end"<<endl;
     list.insetrAtEnd(1);
     list.insetrAtEnd(2);
     list.insetrAtEnd(3);
     cout<<list<<endl;
+
+    if(!list.isEmpty())
+        cout<<"List isn`t empty"<<endl;
 
     cout << "Inserting 4 items at beginning " << endl;
     list.insertAtBeginning(0);
@@ -39,13 +46,48 @@ void singlylist(){
     cout << "Item at position 3: " << list[3] << endl;
     cout << "Does value 23 exist? " << list.search(23) << endl;
     cout << "Size of list: " << list.getSize() << endl;
-   // cout << "Is list circular: " << list.isCircularList() << endl;
+//    cout << "Is list circular: " << list.isCircularList() << endl;
 }
 
+void doublelist(){
+    DoubleLinkedList <int> list;
+    if(list.isEmpty())
+        cout<<"List is empty"<<endl;
+    cout << "Inserting 3 items at beginning " << endl;
+    list.insertAtBeginning(3);
+    list.insertAtBeginning(2);
+    list.insertAtBeginning(1);
+    cout<<list<<endl;
+
+    if(!list.isEmpty())
+        cout<<"List isn`t empty"<<endl;
+    cout << "Inserting 3 items at end " << endl;
+    list.insertAtEnd(6);
+    list.insertAtEnd(5);
+    list.insertAtEnd(7);
+    cout<<list<<endl;
+
+    cout << "Removing from end: " << endl;
+    list.removeFromEnd();
+    list.removeFromBeginning();
+    cout<<list<<endl;
+    cout << "Removing at index 1 " << endl;
+    list.removeAtIndex(1);
+    cout << "Inserting at index 1 value 5" << endl;
+    list.insertAtIndex(1,5);
+    cout<<list<<endl;
+
+    cout << "Item at position 3: " << list[3] << endl;
+    cout << "Does value 23 exist? " << list.search(23) << endl;
+    cout << "Size of list: " << list.getSize() << endl;
+//    cout << "Is list circular: " << list.isCircularList() << endl;
+
+
+}
 
 int main() {
 
-    singlylist();
-
+//    singlylist();
+    doublelist();
     return 0;
 }

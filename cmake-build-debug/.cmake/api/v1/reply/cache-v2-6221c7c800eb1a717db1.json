@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/clion/Data_structures/cmake-build-debug"
+			"value" : "c:/clion/Library/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/clion/Data_structures/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/clion/Library/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/clion/Data_structures"
+			"value" : "C:/clion/Library"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/clion/Data_structures/cmake-build-debug"
+			"value" : "C:/clion/Library/cmake-build-debug"
 		},
 		{
 			"name" : "Data_structures_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/clion/Data_structures"
+			"value" : "C:/clion/Library"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

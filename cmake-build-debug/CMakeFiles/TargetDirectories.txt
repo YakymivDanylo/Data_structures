@@ -1,3 +1,3 @@
-C:/clion/Data_structures/cmake-build-debug/CMakeFiles/Data_structures.dir
-C:/clion/Data_structures/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/clion/Data_structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/clion/Library/cmake-build-debug/CMakeFiles/Data_structures.dir
+C:/clion/Library/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/clion/Library/cmake-build-debug/CMakeFiles/rebuild_cache.dir

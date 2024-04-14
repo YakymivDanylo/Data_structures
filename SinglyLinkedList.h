@@ -25,6 +25,13 @@ public:
         size++;
     };
 
+    bool isEmpty()const{
+        if(!head)
+            return true;
+        else
+            return false;
+    };
+
     void insetrAtEnd(T value){
 
             unique_ptr<Node<T>> newNode = make_unique<Node<T>>(value);
@@ -131,21 +138,21 @@ public:
         }
         return os;
     }
-//    bool isCircularList() {
-//        if(!head){
-//            return false;
-//        }
-//        Node<T>* slow = head.get();
-//        Node<T>* fast = head.get();
-//        while(fast && fast->next){
-//            slow = slow->next.get();
-//            fast= fast ->next->next.get();
-//            if( slow == fast ){
-//                return true;
-//            }
-//        }
-//        return false;
-//    };
+    bool isCircularList() {
+        if(!head){
+            return false;
+        }
+        Node<T>* slow = head.get();
+        Node<T>* fast = head.get();
+        while(fast && fast->next){
+            slow = slow->next.get();
+            fast= fast ->next->next.get();
+            if( slow == fast ){
+                return true;
+            }
+        }
+        return false;
+    };
 
 };
 

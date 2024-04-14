@@ -99,7 +99,9 @@
 			"sourceIndexes" : 
 			[
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -125,6 +127,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "SingleNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "DoubleNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "DoubleLinkedList.h",
 			"sourceGroupIndex" : 1
 		}
 	],
