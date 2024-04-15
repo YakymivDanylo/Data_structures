@@ -7,7 +7,7 @@
 using namespace std;
 
 void singlylist(){
-
+    cout<<"Singly linked list: "<<endl;
     SinglyLinkedList<int> list;
     if(list.isEmpty())
         cout<<"List is empty"<<endl;
@@ -50,6 +50,7 @@ void singlylist(){
 }
 
 void doublelist(){
+    cout<<"Double linked list: "<<endl;
     DoubleLinkedList <int> list;
     if(list.isEmpty())
         cout<<"List is empty"<<endl;
@@ -67,7 +68,7 @@ void doublelist(){
     list.insertAtEnd(7);
     cout<<list<<endl;
 
-    cout << "Removing from end: " << endl;
+    cout << "Removing from end and beginning: " << endl;
     list.removeFromEnd();
     list.removeFromBeginning();
     cout<<list<<endl;

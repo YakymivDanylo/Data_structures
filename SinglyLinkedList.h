@@ -11,7 +11,7 @@ private:
     int size;
     void checkIndex(T index) const{
         if (index < 0 || index >= size ){
-            throw out_of_range("Index out of range");
+            throw out_of_range("Failed to access element. Index out of range!");
         }
     };
 public:
