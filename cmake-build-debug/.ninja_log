@@ -1,9 +1,4 @@
 # ninja log v5
-11	157	7348202516131542	CMakeFiles/Data_structures.dir/SinglyLinkedList.cpp.obj	7de8f113fecf9e1e
-3	686	7348209175011930	CMakeFiles/Data_structures.dir/main.cpp.obj	4c90bf0475fb1409
-686	797	7348209176072485	Data_structures.exe	3d60c5618447278e
 10	72	7348229351545520	CMakeFiles/Data_structures.dir/SinglyLinkedList.cpp.obj	94c8f369d38378ed
-4	680	7348229357610380	CMakeFiles/Data_structures.dir/main.cpp.obj	eb0e21c1c5739b5e
-680	768	7348229358457865	Data_structures.exe	3d60c5618447278e
 4	689	7348231461219167	CMakeFiles/Data_structures.dir/main.cpp.obj	eb0e21c1c5739b5e
 689	778	7348231462077787	Data_structures.exe	3d60c5618447278e

@@ -3,6 +3,12 @@
 #include "SinglyLinkedList.h"
 #include "DoubleNode.h"
 #include "DoubleLinkedList.h"
+#include "QueueArray.h"
+#include "QueueList.h"
+#include "StackList.h"
+#include "CircularQueueArray.h"
+#include "CircularQueueList.h"
+
 
 using namespace std;
 
@@ -46,7 +52,6 @@ void singlylist(){
     cout << "Item at position 3: " << list[3] << endl;
     cout << "Does value 23 exist? " << list.search(23) << endl;
     cout << "Size of list: " << list.getSize() << endl;
-//    cout << "Is list circular: " << list.isCircularList() << endl;
 }
 
 void doublelist(){
@@ -81,14 +86,98 @@ void doublelist(){
     cout << "Item at position 3: " << list[3] << endl;
     cout << "Does value 23 exist? " << list.search(23) << endl;
     cout << "Size of list: " << list.getSize() << endl;
-//    cout << "Is list circular: " << list.isCircularList() << endl;
 
+
+}
+void CircularQueueListEx(){
+    CircularQueueList<int> A;
+    if (A.isEmpty())
+        cout<<"Queue is empty"<<endl;
+    A.enqueue(1);
+    A.enqueue(0);
+    A.enqueue(2);
+    cout<<A;
+    if (A.isFull())
+        cout<<"Queue is full"<<endl;
+    else cout<<"Queue isn`t full"<<endl;
+    cout<<"Dequeued element: "<<A.dequeue()<<endl;
+    cout<<A<<endl;
+    cout<<"First element in queue: "<<A.peek()<<endl;
+
+}
+
+void CircularQueueArrayEx(){
+    CircularQueueArray <int> A;
+    if (A.isEmpty())
+        cout<<"Queue is empty"<<endl;
+    A.enqueue(1);
+    A.enqueue(0);
+    A.enqueue(2);
+    cout<<A;
+    if (A.isFull())
+        cout<<"Queue is full"<<endl;
+    else cout<<"Queue isn`t full"<<endl;
+    cout<<"Dequeued element: "<<A.dequeue()<<endl;
+    cout<<A<<endl;
+    cout<<"First element in queue: "<<A.peek()<<endl;
+
+}
+
+void QueueListEx(){
+    QueueList <int> A;
+    if (A.isEmpty())
+        cout<<"Queue is empty"<<endl;
+    A.enqueue(1);
+    A.enqueue(0);
+    A.enqueue(2);
+    cout<<A;
+    if (A.isFull())
+        cout<<"Queue is full"<<endl;
+    else cout<<"Queue isn`t full"<<endl;
+    cout<<"Dequeued element: "<<A.dequeue()<<endl;
+    cout<<A<<endl;
+    cout<<"First element in queue: "<<A.peek()<<endl;
+}
+
+void QueueArrayEx(){
+    QueueArray<int>A;
+    if (A.isEmpty())
+        cout<<"Queue is empty"<<endl;
+    A.enqueue(1);
+    A.enqueue(0);
+    A.enqueue(2);
+    cout<<A<<endl;
+    if (A.isFull())
+        cout<<"Queue is full"<<endl;
+    else cout<<"Queue isn`t full"<<endl;
+    cout<<"Dequeued element: "<<A.dequeue()<<endl;
+    cout<<A<<endl;
+    cout<<"First element in queue: "<<A.peek()<<endl;
+
+}
+
+void StackListEx(){
+    StackList <int> A;
+    if (A.isEmpty())
+        cout<<"Stack is empty"<<endl;
+    A.push(1);
+    A.push(0);
+    A.push(2);
+    cout<<A<<endl;
+    cout<<"Poped element: "<<A.pop()<<endl;
+    cout<<A<<endl;
+    cout<<"First element in stack: "<<A.peek()<<endl;
 
 }
 
 int main() {
 
 //    singlylist();
-    doublelist();
+//    doublelist();
+//CircularQueueListEx();
+//CircularQueueArrayEx();
+//QueueListEx();
+//QueueArrayEx();
+//StackListEx();
     return 0;
 }

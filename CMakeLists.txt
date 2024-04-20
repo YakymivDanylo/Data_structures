@@ -8,4 +8,9 @@ add_executable(Data_structures main.cpp
         SinglyLinkedList.h
         SingleNode.h
         DoubleNode.h
-        DoubleLinkedList.h)
+        DoubleLinkedList.h
+        QueueList.h
+        QueueArray.h
+        StackList.h
+        CircularQueueArray.h
+        CircularQueueList.h)
