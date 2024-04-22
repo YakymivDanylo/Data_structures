@@ -74,5 +74,29 @@ public:
         }
         return os<<endl;
     }
+    bool isCircularList() {
+        if(!front){
+            return false;
+        }
+        Node<T>* slow = currentSize;
+        Node<T>* fast = currentSize;
+        while(fast && fast->next){
+            slow = slow->next.get();
+            fast= fast ->next->next.get();
+            if( slow == fast ){
+                return true;
+            }
+        }
+        return false;
+    };
+    void isCircular(){
+        if(isCircularList())
+        {
+            cout<<"List is circular"<<endl;
+        }
+        else {
+            cout<<"list isn`t circular"<<endl;
+        }
+    }
 };
 #endif

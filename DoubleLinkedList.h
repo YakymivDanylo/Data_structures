@@ -43,6 +43,7 @@ public:
         ++size;
     };
 
+
     void insertAtIndex(int index, T obj){
         checkIndex(index);
         if (index == 0) {

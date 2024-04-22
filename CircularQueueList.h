@@ -19,7 +19,7 @@ public:
     bool isEmpty() const {
         if(list.getSize() == 0)
             return true;
-        else return false;
+        return false;
     }
 
     bool isFull() const {

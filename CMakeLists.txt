@@ -13,4 +13,5 @@ add_executable(Data_structures main.cpp
         QueueArray.h
         StackList.h
         CircularQueueArray.h
-        CircularQueueList.h)
+        CircularQueueList.h
+        StackArray.h)
